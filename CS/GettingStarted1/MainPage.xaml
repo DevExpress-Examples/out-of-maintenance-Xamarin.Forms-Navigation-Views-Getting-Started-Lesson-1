@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <ContentPage 
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
@@ -19,20 +19,15 @@
                  HeaderPanelPosition="Bottom"
                  ItemHeaderTextColor="#99191919"
                  ItemHeaderIconColor="#99191919"
-                 ItemHeaderFontSize="14"
+                 ItemHeaderFontSize="12"
                  ItemHeaderFontAttributes="Bold"
                  HeaderPanelShadowHeight="4"
                  HeaderPanelShadowRadius="4"
                  IsSelectedItemIndicatorVisible="false">
-        <dxn:TabItem HeaderText="MAIL"
+        <dxn:TabItem HeaderText="Mail"
+                     HeaderIcon="ic_mail.png"
                      SelectedHeaderTextColor="{StaticResource blue600}"
                      SelectedHeaderIconColor="{StaticResource blue600}">
-            <dxn:TabItem.HeaderIcon>
-                <OnPlatform x:TypeArguments="FileImageSource">
-                    <On Platform="iOS" Value="mail"/>
-                    <On Platform="Android" Value="ic_mail.png"/>
-                </OnPlatform>
-            </dxn:TabItem.HeaderIcon>
             <dxn:TabView.Content>
                 <StackLayout>
                     <Label Text="Mail List Here" 
@@ -41,15 +36,10 @@
                 </StackLayout>
             </dxn:TabView.Content>
         </dxn:TabItem>
-        <dxn:TabItem HeaderText="CALENDAR"
+        <dxn:TabItem HeaderText="Calendar"
+                     HeaderIcon="ic_calendar.png"
                      SelectedHeaderTextColor="{StaticResource green600}"
                      SelectedHeaderIconColor="{StaticResource green600}">
-            <dxn:TabItem.HeaderIcon>
-                <OnPlatform x:TypeArguments="FileImageSource">
-                    <On Platform="iOS" Value="calendar"/>
-                    <On Platform="Android" Value="ic_calendar.png"/>
-                </OnPlatform>
-            </dxn:TabItem.HeaderIcon>
             <dxn:TabView.Content>
                 <StackLayout>
                     <Label Text="Calendar Here" 
@@ -58,15 +48,10 @@
                 </StackLayout>
             </dxn:TabView.Content>
         </dxn:TabItem>
-        <dxn:TabItem HeaderText="PEOPLE"
+        <dxn:TabItem HeaderText="People"
+                     HeaderIcon="ic_people.png"
                      SelectedHeaderTextColor="{StaticResource red600}"
                      SelectedHeaderIconColor="{StaticResource red600}">
-            <dxn:TabItem.HeaderIcon>
-                <OnPlatform x:TypeArguments="FileImageSource">
-                    <On Platform="iOS" Value="people"/>
-                    <On Platform="Android" Value="ic_people.png"/>
-                </OnPlatform>
-            </dxn:TabItem.HeaderIcon>
             <dxn:TabView.Content>
                 <StackLayout>
                     <Label Text="People Here"

@@ -46,17 +46,11 @@
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Xml" />
-    <Reference Include="DevExpress.Xamarin.Android.Navigation">
-      <HintPath>..\..\..\..\..\..\build\DevExpress.Xamarin\Binaries\DevExpress.Xamarin.Android.Navigation.dll</HintPath>
-    </Reference>
     <Reference Include="DevExpress.XamarinForms.Navigation.Android">
-      <HintPath>..\..\..\..\..\..\build\DevExpress.Xamarin\Binaries\DevExpress.XamarinForms.Navigation.Android.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.XamarinForms.Navigation.Android">
-      <HintPath>..\..\..\..\..\..\native-mobile\xamarin\Binaries\DevExpress.XamarinForms.Navigation.Android.dll</HintPath>
+      <HintPath>..\..\..\..\native-mobile\xamarin\Binaries\DevExpress.XamarinForms.Navigation.Android.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.Xamarin.Android.Navigation">
-      <HintPath>..\..\..\..\..\..\native-mobile\xamarin\Binaries\DevExpress.Xamarin.Android.Navigation.dll</HintPath>
+      <HintPath>..\..\..\..\native-mobile\xamarin\Binaries\DevExpress.Xamarin.Android.Navigation.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -73,7 +67,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\AboutResources.txt" />
     <None Include="Assets\AboutAssets.txt" />
     <None Include="Properties\AndroidManifest.xml" />
   </ItemGroup>
