@@ -12,27 +12,4 @@
   <ItemGroup>
     <PackageReference Include="Xamarin.Forms" Version="4.4.0.991265" />
   </ItemGroup>
-  <ItemGroup>
-    <Reference Include="DevExpress.XamarinForms.Navigation">
-      <HintPath>..\..\..\..\..\..\build\DevExpress.Xamarin\Binaries\DevExpress.XamarinForms.Navigation.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.XamarinForms.Core">
-      <HintPath>..\..\..\..\..\..\native-mobile\xamarin\Binaries\DevExpress.XamarinForms.Core.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.XamarinForms.Navigation">
-      <HintPath>..\..\..\..\..\..\native-mobile\xamarin\Binaries\DevExpress.XamarinForms.Navigation.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.XamarinForms.Core">
-      <HintPath>..\..\..\..\native-mobile\xamarin\Binaries\DevExpress.XamarinForms.Core.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.Xamarin.iOS.Navigation">
-      <HintPath>..\..\..\..\native-mobile\xamarin\Binaries\DevExpress.Xamarin.iOS.Navigation.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.XamarinForms.Core">
-      <HintPath>..\..\..\..\Downloads\DevExpress.Xamarin\Binaries\DevExpress.XamarinForms.Core.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.XamarinForms.Navigation">
-      <HintPath>..\..\..\..\Downloads\DevExpress.Xamarin\Binaries\DevExpress.XamarinForms.Navigation.dll</HintPath>
-    </Reference>
-  </ItemGroup>
 </Project>

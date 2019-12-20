@@ -160,12 +160,6 @@
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
     <Reference Include="Xamarin.iOS" />
-    <Reference Include="DevExpress.Xamarin.iOS.Navigation">
-      <HintPath>..\..\..\..\Downloads\DevExpress.Xamarin\Binaries\DevExpress.Xamarin.iOS.Navigation.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.XamarinForms.Navigation.iOS">
-      <HintPath>..\..\..\..\Downloads\DevExpress.Xamarin\Binaries\DevExpress.XamarinForms.Navigation.iOS.dll</HintPath>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Xamarin.Forms" Version="4.4.0.991265" />

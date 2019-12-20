@@ -46,12 +46,6 @@
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Xml" />
-    <Reference Include="DevExpress.Xamarin.Android.Navigation">
-      <HintPath>..\..\..\..\Downloads\DevExpress.Xamarin\Binaries\DevExpress.Xamarin.Android.Navigation.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.XamarinForms.Navigation.Android">
-      <HintPath>..\..\..\..\Downloads\DevExpress.Xamarin\Binaries\DevExpress.XamarinForms.Navigation.Android.dll</HintPath>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Xamarin.Forms" Version="4.4.0.991265" />
