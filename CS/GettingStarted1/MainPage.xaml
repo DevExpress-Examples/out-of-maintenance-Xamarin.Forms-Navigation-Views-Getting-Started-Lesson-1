@@ -24,41 +24,41 @@
                  HeaderPanelShadowHeight="4"
                  HeaderPanelShadowRadius="4"
                  IsSelectedItemIndicatorVisible="false">
-        <dxn:TabItem HeaderText="Mail"
+        <dxn:TabViewItem HeaderText="Mail"
                      HeaderIcon="ic_mail.png"
                      SelectedHeaderTextColor="{StaticResource blue600}"
                      SelectedHeaderIconColor="{StaticResource blue600}">
-            <dxn:TabView.Content>
+            <dxn:TabViewItem.Content>
                 <StackLayout>
                     <Label Text="Mail List Here" 
                            HorizontalOptions="Center" 
                            VerticalOptions="CenterAndExpand"/>
                 </StackLayout>
-            </dxn:TabView.Content>
-        </dxn:TabItem>
-        <dxn:TabItem HeaderText="Calendar"
+            </dxn:TabViewItem.Content>
+        </dxn:TabViewItem>
+        <dxn:TabViewItem HeaderText="Calendar"
                      HeaderIcon="ic_calendar.png"
                      SelectedHeaderTextColor="{StaticResource green600}"
                      SelectedHeaderIconColor="{StaticResource green600}">
-            <dxn:TabView.Content>
+            <dxn:TabViewItem.Content>
                 <StackLayout>
                     <Label Text="Calendar Here" 
                            HorizontalOptions="Center" 
                            VerticalOptions="CenterAndExpand"/>
                 </StackLayout>
-            </dxn:TabView.Content>
-        </dxn:TabItem>
-        <dxn:TabItem HeaderText="People"
+            </dxn:TabViewItem.Content>
+        </dxn:TabViewItem>
+        <dxn:TabViewItem HeaderText="People"
                      HeaderIcon="ic_people.png"
                      SelectedHeaderTextColor="{StaticResource red600}"
                      SelectedHeaderIconColor="{StaticResource red600}">
-            <dxn:TabView.Content>
+            <dxn:TabViewItem.Content>
                 <StackLayout>
                     <Label Text="People Here"
                            HorizontalOptions="Center" 
                            VerticalOptions="CenterAndExpand"/>
                 </StackLayout>
-            </dxn:TabView.Content>
-        </dxn:TabItem>
+            </dxn:TabViewItem.Content>
+        </dxn:TabViewItem>
     </dxn:TabView>
 </ContentPage>

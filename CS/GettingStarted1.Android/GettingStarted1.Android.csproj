@@ -46,20 +46,20 @@
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Xml" />
-    <Reference Include="DevExpress.XamarinForms.Navigation.Android">
-      <HintPath>..\..\..\..\native-mobile\xamarin\Binaries\DevExpress.XamarinForms.Navigation.Android.dll</HintPath>
-    </Reference>
     <Reference Include="DevExpress.Xamarin.Android.Navigation">
-      <HintPath>..\..\..\..\native-mobile\xamarin\Binaries\DevExpress.Xamarin.Android.Navigation.dll</HintPath>
+      <HintPath>..\..\..\..\Downloads\DevExpress.Xamarin\Binaries\DevExpress.Xamarin.Android.Navigation.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XamarinForms.Navigation.Android">
+      <HintPath>..\..\..\..\Downloads\DevExpress.Xamarin\Binaries\DevExpress.XamarinForms.Navigation.Android.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Xamarin.Forms" Version="3.3.0.967583" />
-    <PackageReference Include="Xamarin.Android.Support.Design" Version="27.0.2.1" />
-    <PackageReference Include="Xamarin.Android.Support.v7.AppCompat" Version="27.0.2.1" />
-    <PackageReference Include="Xamarin.Android.Support.v4" Version="27.0.2.1" />
-    <PackageReference Include="Xamarin.Android.Support.v7.CardView" Version="27.0.2.1" />
-    <PackageReference Include="Xamarin.Android.Support.v7.MediaRouter" Version="27.0.2.1" />
+    <PackageReference Include="Xamarin.Forms" Version="4.4.0.991265" />
+    <PackageReference Include="Xamarin.Android.Support.Design" Version="28.0.0.3" />
+    <PackageReference Include="Xamarin.Android.Support.v7.AppCompat" Version="28.0.0.3" />
+    <PackageReference Include="Xamarin.Android.Support.v4" Version="28.0.0.3" />
+    <PackageReference Include="Xamarin.Android.Support.v7.CardView" Version="28.0.0.3" />
+    <PackageReference Include="Xamarin.Android.Support.v7.MediaRouter" Version="28.0.0.3" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="MainActivity.cs" />
